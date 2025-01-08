@@ -7,58 +7,66 @@
 </head>
 <body>
  <h1>Product Hightlights</h1>
- <table border="1"
+ <table border="1">
    <tr>
      <th>Product Name</th>
      <th>Description</th>
-     <th>Price</th>
-     </th> 
+     <th>Price</th> 
      <tr>
-       <td>Cerave Facial Foaming Cleanser
+       <td>Cerave Facial Foaming Cleanser<td>
        <td>A wash that is gentle and good for oily skin</td>
        <td>17,000</td>
        </tr>
        <tr>
-        <td>Anua Niacinamide serum
+        <td>Anua Niacinamide serum<td>
         <td>A serum that helps with the fading of dark spots</td>
         <td>27,000</td>
        </tr>
        <tr>
-         <td>Cosrx Aloe Sunscreen
+         <td>Cosrx Aloe Sunscreen<td>
         <td>A sunscreen that protects your skin from harmful sunrays and also provides long lasting hydration</td>
         <td>12,000</td>
        </tr>
   </table>
   <h2>User Feedback</h2>
+
   <form> 
     <div>
     <label for=" FirstName">First Name:</label>
     <input 
-    type="text" 
-    id=FirstName"
-    name="FirstName"
-    placeholder="enter your first name"
-    required
+      type="text" 
+      id="FirstName"
+      name="FirstName"
+      placeholder="enter your first name"
+      required
     />
     </div>
     <br />
+
      <div>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required />
-
   </div>
    <br />
 
    <div>
-   <label for="number">Rating</label>
-   <input type="number" id="number" name="number" min="1"   
-   max="5" />
+   <label for="number">Label</label>
+   <select id="number" name="number"> 
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5">5</option>
+   </select>
    </div>
+   <br />
+
   <div>
     <label for="message">Enter Feedback</label>
     <textarea id="message" name="message"></textarea>
   </div> 
   <br />
+
   <div>
     <input type="submit" />
   </div> 
